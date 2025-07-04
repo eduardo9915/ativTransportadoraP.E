@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #545454;
+    padding: 4vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#logo{
+    color: white;
+    font-size: 35px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+li{
+    margin left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+#inicio{
+    background-image: url(../images/caminhaoBackground.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 2px 10px black;
+    font-size: 45px;
+    padding: 0vh 10vw;
+}
+
+#quemSomos{
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 10vw;
+    gap: 8vw
+}
+
+#itensQuemSomos{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 35px;
+    color: #545454;
+    text-align: center;
+
+}
+
+.paragrafo-comum{
+    color: #545454;
+    font-size: 20px;
+}
+
+#quemSomos img{
+    max-width: 40vw;
+}
+
+
+
+#servicos{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoSevicos{
+    display: flex;
+    padding: 0vh 10vw;
+    gap: 10;
+}
+
+.itemServicos{
+    max-width: 20vw;
+}
+
+.itemServicos img{
+    max-width: 20vw;
+}
